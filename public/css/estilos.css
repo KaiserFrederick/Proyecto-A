@@ -1,0 +1,120 @@
+/*
+Azul cielo #C1F7FF
+Azul oscuro #63A9B2
+Piel #FFDCC1
+Cafe #B29075
+Claro #FFEADA
+
+Contenido font-family: 'Slabo 27px', serif;
+Menu font-family: 'Yanone Kaffeesatz', sans-serif;
+Titulos font-family: 'Bree Serif', serif;
+
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+	background-color: #FFDCC1;
+}
+
+a {
+	text-decoration: none; /* Elimina el subrayado de los enlaces */
+}
+
+header {
+	background-color: black;
+	display: inline-block;
+	width: 100%;
+}
+
+header nav ul li a {
+	display: block; /* Muestra elementos en bloque */
+	font: 25px 'Yanone Kaffeesatz', sans-serif;
+	color: white;
+	padding: 14px 20px; /* Agrega espacio entre el contenido y el borde del contenedor */
+}
+
+header nav ul li a:hover {
+	background-color: #8A7878;
+	text-decoration: underline; /* Subraya el texto */
+	/*horizontal vertical blur color*/
+	text-shadow: 0px 0px 10px white;
+}
+
+header nav ul li {
+	float: left;
+}
+
+header nav ul li.derecha {
+	float: right;
+	background-color: #63A9B2;
+}
+
+
+#main {
+	width: 100%;
+}
+
+/* Custom Footer  */
+footer {
+	background-color: #B29075; /* color de fondo */
+	width: 100%; /* ancho de cualquier contenedor */
+}
+
+footer div.foo-box {
+	display: inline-block; /* Muestra los elementos en línea pero con las caracterías de un bloque */
+	margin: 30px 80px; /* Añadir margen a un elemento, al tener dos valores, el primero indica arriba y abajo, y el segundo es izquierda y derecha*/
+}
+
+footer div.foo-box h1 {
+	font: 20px 'Bree Serif', serif; /* Agrega tamaño y tipo de letra */
+	text-shadow: 0px 0px 10px black; /* Agregar sombra al textox (horizontal vertical difuminado color) */
+	color: black; /* Agrega un color al texto */
+}
+
+footer div.foo-box ul li a {
+	font: 20px 'Yanone Kaffeesatz', sans-serif;
+	color: white;
+}
